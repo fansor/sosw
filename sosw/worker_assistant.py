@@ -90,6 +90,10 @@ class WorkerAssistant(Essential):
             'mark_task_as_completed': {
                 'function':        self.mark_task_as_completed,
                 'required_params': ['task_id']
+            },
+            'mark_task_as_failed': {
+                'function':        self.mark_task_as_failed,
+                'required_params': ['task_id']
             }
         }
 
